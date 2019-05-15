@@ -1,4 +1,4 @@
-# JordanStidham 
+# Bio
 
 Hello!
 
