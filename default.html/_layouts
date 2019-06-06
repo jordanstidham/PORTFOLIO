@@ -1,1 +1,37 @@
-
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+	</head>
+	<body>
+		<nav>
+    <ul>
+        		<li><a href="/">HOME</a></li>
+	        	<li><a href="/about">ABOUT</a></li>
+        		<li><a href="/corporatecommunications">CORPORATE COMMUNICATIONS</a></li>
+        		<li><a href="/newsletter">NEWSLETTER</a></li>
+			<li><a href="/in-housecommunuicationsandpromotionalcampaigns">IN-HOUSE COMMUNICATIONS & PROMOTIONAL CAMPAIGNS</a></li>
+	        	<li><a href="/outreach">OUTREACH</a></li>
+        		<li><a href="/projects">PROJECTS</a></li>
+        		<li><a href="/contact">CONTACT</a></li>
+    		</ul>
+		</nav>
+		<div class="container">
+    
+    {{ content }}
+    
+    <div class="blurb">
+        		<h1>WELCOME TO MY PORTFOLIO</h1>
+				<p>My blood, sweat, and tears. <a href="/about">Click here to read more about me...</a></p>
+    		</div><!-- /.blurb -->
+		</div><!-- /.container -->
+		<footer>
+    <ul>
+        		<li><a href="mailto:stidhamjordan@gmail.com">email</a></li>
+        		<li><a href="https://github.com/jordanstidham">github.com/jordanstidham</a></li>
+		</ul>
+		</footer>
+	</body>
+</html>
