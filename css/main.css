@@ -1,6 +1,9 @@
 body {
     margin: 60px auto;
     width: 70%;
+    background: #222;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -39,4 +42,9 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+.container {
+    width: 80%
+    margin: 0 auto;
 }
