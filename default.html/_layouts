@@ -23,7 +23,7 @@
     {{ content }}
     
    		<div class="blurb">
-        		<h1>WELCOME TO MY PORTFOLIO</h1>
+        		<h1>WELCOME.</h1>
 				<p>Please, browse and enjoy. <a href="/about">Click here to read more about me...</a></p>
     		</div><!-- /.blurb -->
 		</div><!-- /.container -->
