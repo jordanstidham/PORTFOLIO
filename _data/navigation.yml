@@ -1,6 +1,16 @@
-- name: Home
+- name: HOME
   link: /
 - name: ABOUT
-  link: /videos/
-- name: FAQ
-  link: /faq/
+  link: /about/
+- name: CORPORATE COMMUNICATIONS
+  link: /corporatecommunications/
+- name: NEWSLETTER
+  link: /newsletter/
+- name: IN-HOUSE COMMUNICATIONS & PROMOTIONAL CAMPAIGNS
+  link: /in-housecommunuicationsandpromotionalcampaigns/
+- name: OUTREACH
+  link: /outreach/
+- name: PROJECTS
+  link: /projects/
+- name: CONTACT
+  link: /contact
