@@ -6,7 +6,7 @@ body {
     font-weight: 400;
 }
 .container {
-    width: 80%
+    width: 80%;
     margin: 0 auto;
 }
 header {
@@ -23,7 +23,9 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 70px;
-    padding-top: 25px
+    padding-top: 23px;
+    
+    position: relative;
 }
 nav a {
     color: #444;
@@ -33,4 +35,19 @@ nav a {
 }
 nav a:hover {
     color: #000;
+}
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: #444;
+        
+    position: absolute;
+    top: 0;
+    width: 0%;
+    
+    transition: all ease-in-out 250ms;
+}
+nav a:hover::before {
+    width: 100%;
 }
