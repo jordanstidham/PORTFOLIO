@@ -12,4 +12,16 @@ body {
 header {
     background: #55d6aa;
 }
-    
+nav {
+    float: right;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px
+}
