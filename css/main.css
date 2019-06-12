@@ -1,21 +1,20 @@
-html
-{
-    height:100%;
+html {
+    height: 100%;
 }
 body {
     height: 100%;
     margin: 60px auto;
     width: 70%;
     background-color: #222;
-    font-family: 'Work Sans', sans-serif;
+    font-family: Arial;
     font-weight: 400;
 }
 .container {
     width: 80%;
     margin: 0 auto;
 }
-header {
-    background: #55d6aa;
+.header {
+    background-color: #55d6aa;
 }
 nav {
     float: right;
