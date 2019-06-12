@@ -36,11 +36,11 @@ body {
 .navbar a:hover {
     color: #000;
 }
-.navbar a::before {
+.navbar a::after {
     content: '';
     display: block;
     height: 5px;
-    background-color: #444;
+    background-color: #112E51;
         
     position: absolute;
     top: 0;
