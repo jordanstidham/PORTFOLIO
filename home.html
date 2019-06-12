@@ -14,9 +14,4 @@ I am a flexible communications specialist living in Tennessee with 5 years of ex
 			<li><a href="#{{ item.question | slugify }}">{{ item.question }}</a></li>
 		{% endfor %}
 	</ul>
-
-	{% for item in page.home %}
-		<h2 id="{{ item.question | slugify}}">{{ item.question }}<a class="header-link" href="#{{ item.question | slugify }}">#</a></h2>
-		{{ item.answer | markdownify }}
-	{% endfor %}
 </section>
