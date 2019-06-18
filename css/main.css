@@ -56,16 +56,10 @@ body {
 }
 
 div.container1 {
-   height: 10em;
-   position: relative; 
-    margin: 0;   
-    
-   position: absolute;           
-   top: 50%;   
-    
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) } 
-
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center }
 div.container1 p {
-    background: #112E51; }
+  margin: 0;
+background: #112E51; }
