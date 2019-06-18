@@ -54,12 +54,3 @@ body {
 .navbar a:hover::before {
     width: 100%;
 }
-
-div.container1 {
-  height: 10em;
-  display: flex;
-  align-items: center;
-  justify-content: center }
-div.container1 p {
-  margin: 0;
-background: #112E51; }
