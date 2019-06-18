@@ -51,9 +51,6 @@ body {
 .navbar a:hover::before {
     width: 100%;
 }
-	img.rounded-corners {
-  border-radius: 50%;
-}
 address {
     float: right;
 }
