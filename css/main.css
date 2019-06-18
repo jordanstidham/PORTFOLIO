@@ -57,12 +57,12 @@ body {
 
 div.container1 {
    height: 10em;
-   position: relative }              /* 1 */
-div.container1 p {
-   margin: 0;
-    background: #112E51;
-   position: absolute;               /* 2 */
-   top: 50%;                         /* 3 */
+   position: relative; 
+    margin: 0;              
+   position: absolute;           
+   top: 50%;                         
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) } /* 4 */
+    transform: translate(-50%, -50%) } 
+div.container1 p {
+    background: #112E51; }
