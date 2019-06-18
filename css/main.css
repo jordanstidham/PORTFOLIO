@@ -60,6 +60,9 @@ div.container1 {
    position: relative }              /* 1 */
 div.container1 p {
    margin: 0;
+    background: #112E51;
    position: absolute;               /* 2 */
    top: 50%;                         /* 3 */
-   transform: translate(0, -50%) }   /* 4 */
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) } /* 4 */
