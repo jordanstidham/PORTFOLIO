@@ -54,6 +54,6 @@ body {
 	img.rounded-corners {
   border-radius: 50%;
 }
-.address {
+address {
     float: right;
 }
