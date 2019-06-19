@@ -61,7 +61,6 @@ address {
 }
 
 .dropdown .dropbtn {
-  cursor: pointer;
   font-size: 16px;  
   border: none;
   outline: none;
@@ -70,6 +69,10 @@ address {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: red;
 }
 
 .dropdown-content {
@@ -94,6 +97,6 @@ address {
   background-color: #ddd;
 }
 
-.show {
+.dropdown:hover .dropdown-content {
   display: block;
 }
