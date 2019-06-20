@@ -47,6 +47,7 @@ body {
 .main-menu a::before {
     content: '';
     display: block;
+    padding: 10px 0px;
     height: 5px;
     background-color: #112E51;  
     position: absolute;
