@@ -9,6 +9,15 @@ body {
     font-family: Arial;
     font-weight: 400;
 }
+/*header style*/
+.head {
+    background-color: #DCE4EF;
+    color: black;
+    padding: 10px 70px;
+    font-size: 30px;
+}
+
+/*navbar style*/
 .nav {
     float: right;
 }
