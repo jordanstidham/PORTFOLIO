@@ -22,14 +22,7 @@ body {
     float: right;
     padding: 10px 0px;
 }
-.main-menu ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
+
 .main-menu>li {
     display: inline-block;
     margin-left: 10px;
