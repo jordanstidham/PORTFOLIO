@@ -74,8 +74,7 @@ address {
     list-style-type: none;
     position: absolute;
     border: 5px black;
-    margin-top: 30px;
-    margin-left: -10px;
+    
     text-align: left;
     box-shadow: 1px 1px 1px grey;
 }
