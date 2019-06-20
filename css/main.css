@@ -92,7 +92,7 @@ address {
 }
 
 /*show submenus*/
-.main-menu li:hover, .sub-menu li:hover {
+.sub-menu li:hover {
     background: #35c;
     display: block;
 }
