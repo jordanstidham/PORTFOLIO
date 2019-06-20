@@ -79,7 +79,7 @@ address {
     box-shadow: 1px 1px 1px grey;
 }
 
-.sub-menu: before {
+.sub-menu:before {
     content: "";
     width: 0px;
     height: 0px;
@@ -100,12 +100,12 @@ address {
 
 
 /* Add a red background color to navigation links on hover */
-.navbar a:hover, .subnav:hover .subnavbtn {
+.nav a:hover, .sub-menu:hover .subnavbtn {
   background-color: cream;
 }
 
 /* Style the subnav content - positioned absolute */
-.subnav-content {
+.sub-menu-content {
   display: none;
   position: absolute;
   left: 0;
@@ -115,7 +115,7 @@ address {
 }
 
 /* Style the subnav links */
-.subnav-content a {
+.sub-menu-content a {
   float: left;
   color: white;
   text-decoration: none;
