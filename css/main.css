@@ -21,7 +21,7 @@ body {
 .nav {
     float: right;
 }
-.nav ul {
+.main-menu ul {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -34,20 +34,20 @@ body {
     margin-left: 70px;
     padding-top: 23px;
     font-size: 20px;
-    transition: 4s;
+    transition: .4s;
     
     position: relative;
 }
-.nav a {
+.main-menu a {
     color: #444;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
 }
-.nav a:hover {
+.main-menu a:hover {
     color: #000;
 }
-.nav a::before {
+.main-menu a::before {
     content: '';
     display: block;
     height: 5px;
@@ -59,7 +59,7 @@ body {
     
     transition: all ease-in-out 250ms;
 }
-.nav a:hover::before {
+.main-menu a:hover::before {
     width: 100%;
 }
 address {
@@ -68,7 +68,7 @@ address {
 
 /* The subnavigation menu */
 .sub-menu{
-    display: block;
+    display: none;
     width: 300px;
     list-style-type: none;
     position: absolute;
@@ -97,11 +97,15 @@ address {
     font-size: 20px;
 }
 
-
-
-/* Add a red background color to navigation links on hover */
-.nav a:hover, .sub-menu:hover .subnavbtn {
+/* Add a cream background color to navigation links on hover */
+.sub-menu li:hover {
   background-color: cream;
+}
+
+/*show submenus*/
+.main-menu li:hover .sub-menu {
+    display: block;
+   
 }
 
 /* Style the subnav content - positioned absolute */
@@ -122,12 +126,12 @@ address {
 }
 
 /* Add a grey background color on hover */
-.subnav-content a:hover {
+.sub-menu-content a:hover {
   background-color: #eee;
   color: black;
 }
 
 /* When you move the mouse over the subnav container, open the subnav content */
-.subnav:hover .subnav-content {
+.submenu:hover .submenu-content {
   display: block;
 }
