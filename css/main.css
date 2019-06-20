@@ -67,10 +67,37 @@ address {
 }
 
 /* The subnavigation menu */
-.subnav {
-  float: left;
-  overflow: hidden;
+.sub-menu{
+    display: block;
+    width: 300px;
+    list-style-type: none;
+    position: absolute;
+    border: 5px black;
+    margin-top: 30px;
+    margin-left: -10px;
+    text-align: left;
+    box-shadow: 1px 1px 1px grey;
 }
+
+.sub-menu: before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid white;
+    position: absolute;
+    margin: -30px 0px 0px 
+}
+
+.sub-menu>li{
+    padding: 10px; 
+    color: white;
+    background:#37f;
+    font-size: 20px;
+}
+
+
 
 /* Add a red background color to navigation links on hover */
 .navbar a:hover, .subnav:hover .subnavbtn {
