@@ -24,6 +24,8 @@ body {
     display: inline-block;
     margin-left: 70px;
     padding-top: 23px;
+    font-size: 20px;
+    transition: 4s;
     
     position: relative;
 }
