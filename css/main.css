@@ -91,8 +91,13 @@ address {
     font-size: 20px;
 }
 
-/*show submenus*/
+/*hover effect*/
 .sub-menu li:hover {
     background: #35c;
+    display: block;
+}
+
+/*show submenus*/
+.main-menu li:hover .sub-menu {
     display: block;
 }
