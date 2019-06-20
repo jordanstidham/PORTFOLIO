@@ -91,12 +91,8 @@ address {
     font-size: 20px;
 }
 
-/* Add a background color to navigation links on hover */
-.sub-menu li:hover {
-  background-color: #35c;
-}
-
 /*show submenus*/
-.main-menu li:hover .sub-menu {
+.main-menu li:hover, .sub-menu li:hover {
+    background: #35c;
     display: block;
 }
