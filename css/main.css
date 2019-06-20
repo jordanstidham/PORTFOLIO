@@ -101,9 +101,9 @@ address {
     font-size: 20px;
 }
 
-/* Add a cream background color to navigation links on hover */
+/* Add a background color to navigation links on hover */
 .sub-menu li:hover {
-  background-color: cream;
+  background-color: #35c;
 }
 
 /*show submenus*/
