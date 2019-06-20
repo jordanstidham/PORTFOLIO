@@ -65,7 +65,7 @@ address {
 /* The subnavigation menu */
 .sub-menu{
     display: none;
-    width: 100%;
+    width: 300px;
     list-style-type: none;
     position: absolute;
     border: 5px black;
