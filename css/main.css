@@ -73,7 +73,7 @@ address {
     display: none;
     width: 300px;
     list-style-type: none;
-    position: absolute;
+    position: relative;
     left: 0;
     width: 100%;
     z-index: 1;
