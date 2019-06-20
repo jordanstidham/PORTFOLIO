@@ -3,7 +3,6 @@ html {
 }
 body {
     height: 100%;
-    margin: 60px auto;
     width: 70%;
     background-color: #DCE4EF;
     font-family: Arial;
@@ -23,7 +22,6 @@ body {
     padding: 10px 0px;
 }
 .main-menu ul {
-    margin: 0;
     padding: 0;
     list-style: none;
     position: fixed;
@@ -50,9 +48,7 @@ body {
     content: '';
     display: block;
     height: 5px;
-    background-color: #112E51;
-    margin-left: -10px;
-    margin-top: 30px;    
+    background-color: #112E51;  
     position: absolute;
     top: 0;
     width: 0%;
@@ -85,8 +81,7 @@ address {
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-bottom: 30px solid white;
-    position: absolute;
-    margin: -30px 0px 0px; 
+    position: absolute; 
 }
 
 .sub-menu>li{
