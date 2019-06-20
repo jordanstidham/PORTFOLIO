@@ -37,16 +37,16 @@ body {
     
     position: relative;
 }
-.main-menu li {
+.main-menu a {
     color: #444;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
 }
-.main-menu li:hover {
+.main-menu a:hover {
     color: #000;
 }
-.main-menu li::before {
+.main-menu a::before {
     content: '';
     display: block;
     height: 5px;
@@ -59,7 +59,7 @@ body {
     
     transition: all ease-in-out 250ms;
 }
-.main-menu li:hover::before {
+.main-menu a:hover::before {
     width: 100%;
 }
 address {
