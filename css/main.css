@@ -20,6 +20,7 @@ body {
 /*navbar style*/
 .nav {
     float: right;
+    padding: 10px 0px;
 }
 .main-menu ul {
     margin: 0;
@@ -31,8 +32,8 @@ body {
 }
 .main-menu li {
     display: inline-block;
-    margin-left: 70px;
-    padding-top: 23px;
+    margin-left: 10px;
+    padding: 10px 0px;
     font-size: 20px;
     transition: .4s;
     
