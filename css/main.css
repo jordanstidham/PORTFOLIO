@@ -32,8 +32,6 @@ body {
 }
 .main-menu>li {
     display: inline-block;
-    margin-left: 10px;
-    padding: 10px 0px;
     font-size: 20px;
     transition: .4s;
     
