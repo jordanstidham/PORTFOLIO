@@ -12,11 +12,11 @@ body {
 .head {
     background-color: #256569;
     color: white;
-    padding: 5px 5px 5px 5px;
+    padding: 3px 3px 3px 3px;
     font-size: 30px;
     text-align: center;
     width: 15%;
-    margin: 5px;
+    margin: 0px 0px 5px 35px;
 }
 
 /*navbar style*/
