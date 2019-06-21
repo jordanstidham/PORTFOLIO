@@ -77,7 +77,7 @@ address {
     border: 5px black;
     text-align: left;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	z-index: 1;
+	padding: 12px 16px;
 }
 
 .sub-menu:before {
