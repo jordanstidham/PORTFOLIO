@@ -92,9 +92,9 @@ address {
 
 .main-menu li .sub-menu li{
     padding: 10px; 
-    color: white;
     background: #E4E2E0;
     font-size: 20px;
+    border-top: 1px solid #black
 }
 
 /*show submenus*/
