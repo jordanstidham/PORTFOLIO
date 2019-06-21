@@ -103,9 +103,11 @@ address {
 	transition: background-color .5s;
 }
 
+/* Change color of dropdown links on hover */
 .sub-menu a:hover {
-	background-color: red;
+	background-color: #f1f1f1;
 }
+
 /* Show the dropdown menu on hover */
 .main-menu:hover .sub-menu {
   display: block;
