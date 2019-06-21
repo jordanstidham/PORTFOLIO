@@ -73,7 +73,7 @@ address {
     display: none;
     width: 300px;
     list-style-type: none;
-    position: relative;
+    position: absolute;
     border: 5px black;
     text-align: left;
     box-shadow: 1px 1px 1px grey;
@@ -104,6 +104,15 @@ address {
 
 .sub-menu a:hover {
 	background-color: red;
+}
+/* Show the dropdown menu on hover */
+.main-menu:hover .sub-menu {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.nav:hover .main-menu {
+  background-color: #3e8e41;
 }
 
 /*show submenus*/
