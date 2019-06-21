@@ -28,8 +28,8 @@ body {
     padding: 0;
     list-style: none;
     position: fixed;
-    top: 0;
-    width: 100%;
+    top: 20px;
+    width: 75%;
 }
 .main-menu>li {
     display: inline-block;
