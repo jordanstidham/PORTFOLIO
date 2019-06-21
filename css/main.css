@@ -16,7 +16,7 @@ body {
     text-align: center;
     padding: 1px 1px 1px 1px;
     position: absolute;
-    left: 10px;
+    left: 20px;
     top: 0;
 }
 
@@ -64,6 +64,9 @@ body {
 }
 address {
     float: right;
+    position: absolute; 
+    right: 10px; 
+    bottom: 10px;
 }
 
 /* The subnavigation menu */
