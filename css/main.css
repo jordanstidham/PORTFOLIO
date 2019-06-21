@@ -116,9 +116,6 @@ address {
 }
 
 /*added*/
-.nav ul li {
-    display: inline;
-}
 .nav li ul {
     display: none;  
 }
