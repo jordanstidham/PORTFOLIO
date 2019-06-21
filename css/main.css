@@ -97,6 +97,11 @@ address {
     border-top: 1px solid #e4e0e3;
 }
 
+.sub-menu a {
+    color: #000;
+	transition: background-color .5s;
+}
+
 .sub-menu a:hover {
 	background-color: red;
 }
