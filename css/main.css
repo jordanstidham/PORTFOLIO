@@ -81,8 +81,8 @@ address {
 
 .sub-menu:before {
     content: "";
-    width: 0px;
-    height: 0px;
+    width: 0;
+    height: 0;
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-bottom: 30px solid white;
