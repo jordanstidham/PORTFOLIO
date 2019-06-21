@@ -114,3 +114,21 @@ address {
 .main-menu li:hover .sub-menu {
     display: block;
 }
+
+/*added*/
+.nav ul li {
+    display: inline;
+}
+
+.nav li ul {
+    display: none;  
+}
+
+.nav ul li:hover ul {
+    display: block;
+    position: absolute;
+}
+
+.nav ul ul li {
+    display: block; 
+}
