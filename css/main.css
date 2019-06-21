@@ -23,7 +23,7 @@ body {
 
 /*navbar style*/
 .nav {
-    float: right;
+    right: 0;
     padding: 10px 0px;
 }
 .main-menu ul {
