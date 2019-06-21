@@ -120,10 +120,6 @@ address {
     display: inline;
 }
 
-.nav li ul {
-    display: none;  
-}
-
 .nav ul li:hover ul {
     display: block;
     position: absolute;
