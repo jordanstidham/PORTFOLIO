@@ -17,6 +17,7 @@ body {
     text-align: center;
     width: 15%;
     margin: 0px 0px 5px 35px;
+    margin-top: none;
 }
 
 /*navbar style*/
