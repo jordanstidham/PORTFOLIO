@@ -24,6 +24,7 @@ body {
 .nav {
     float: right;
     padding: 10px 0px;
+	text-align: center;
 }
 .main-menu ul {
     padding: 0;
