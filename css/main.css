@@ -97,6 +97,7 @@ address {
     border-top: 1px solid #e4e0e3;
 }
 
+/* Links inside the dropdown */
 .sub-menu a {
     color: #444;
 	transition: background-color .5s;
@@ -108,11 +109,6 @@ address {
 /* Show the dropdown menu on hover */
 .main-menu:hover .sub-menu {
   display: block;
-}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.nav:hover .main-menu {
-  background-color: #3e8e41;
 }
 
 /*show submenus*/
