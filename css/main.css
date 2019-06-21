@@ -12,10 +12,10 @@ body {
 .head {
     background-color: #256569;
     color: white;
-    padding: 5px 5px 5px 5px;
     font-size: 30px;
     text-align: center;
     width: 15%;
+    margin: 0px 35px 0px 35px;
 }
 
 /*navbar style*/
