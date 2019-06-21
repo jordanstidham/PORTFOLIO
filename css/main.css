@@ -115,7 +115,6 @@ address {
     display: block;
 }
 
-/*added*/
 .nav ul li:hover ul {
     display: block;
     position: absolute;
