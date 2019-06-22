@@ -118,10 +118,6 @@ address {
 }
 
 /*show submenus*/
-.nav ul li:hover .nav ul li ul{
-    display: block;
-}
-
 .nav ul li:hover ul {
     display: block;
     position: absolute;
