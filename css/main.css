@@ -109,7 +109,7 @@ address {
 /* Links inside the dropdown */
 .nav ul li ul li a {
     color: #444;
-	transition: background-color .5s;
+	transition: .5s;
 }
 
 /* Change color of dropdown links on hover */
