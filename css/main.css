@@ -75,7 +75,7 @@ address {
 }
 
 /* The subnavigation menu */
-.sub-menu{
+.nav ul li ul {
     display: none;
     width: 300px;
     list-style-type: none;
@@ -85,7 +85,7 @@ address {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-.sub-menu:before {
+.nav ul li ul:before {
     content: "";
     width: 0;
     height: 0;
