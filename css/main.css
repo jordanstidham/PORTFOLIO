@@ -80,9 +80,9 @@ address {
     width: 300px;
     list-style-type: none;
     position: absolute;
-    border: 5px black;
     text-align: left;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	border-radius: 0px 0px 4px 4px;
 }
 
 .nav ul li ul:before {
@@ -103,6 +103,7 @@ address {
     background: #E4E2E0;
     font-size: 20px;
 	width: 300px;
+	border-radius: 4px;
 }
 
 /* Links inside the dropdown */
