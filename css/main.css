@@ -42,12 +42,13 @@ body {
     display: inline-block;
     font-size: 20px;
     text-align: center;
+    padding: 20px;
     transition: .4s;
     
     position: relative;
 }
 .nav ul li a {
-	display: block;
+    display: block;
     color: #444;
     text-decoration: none;
     text-transform: uppercase;
