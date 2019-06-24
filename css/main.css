@@ -63,7 +63,7 @@ body {
     background-color: #112E51;  
     position: absolute;
     top: 0;
-    width: 100%;
+    width: 0%;
     
     transition: all ease-in-out 250ms;
 }
