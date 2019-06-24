@@ -63,13 +63,11 @@ body {
     background-color: #112E51;  
     position: absolute;
     top: 0;
-    width: 0%;
+    width: 100%;
     
     transition: all ease-in-out 250ms;
 }
-.nav ul li a:hover::before {
-    width: 100%;
-}
+
 address {
     position: absolute; 
     right: 50px; 
