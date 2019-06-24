@@ -79,7 +79,7 @@ address {
 /* The subnavigation menu */
 .nav ul li ul {
     display: none;
-    width: 100px;
+    width: 300px;
     list-style-tye: none;
     position: absolute;
     text-align: left;
