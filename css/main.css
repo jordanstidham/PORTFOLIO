@@ -28,6 +28,8 @@ body {
     position: absolute; 
     right: 50px; 
 }
+
+/*unordered list style (about, projects, contact)*/
 .nav ul {
     display: inline;
     margin: 0;
@@ -77,7 +79,7 @@ address {
     bottom: 10px;
 }
 
-/* The subnavigation menu */
+/* The subnavigation menu (corp. comm, in-house, etc)*/
 .nav ul li ul {
     display: none;
     width: 300px;
