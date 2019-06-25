@@ -29,10 +29,11 @@ header {
 }
 .logo {
     color: white;
-    font-size: 20px;
+    font-size: 40px;
     text-align: center;
     text-decoration: none;
     padding: 10px 0;
+    grid-column: 1 / 2;
 }
 
 /*navbar style*/
@@ -42,6 +43,7 @@ nav {
     position: absolute; 
     right: 50px;
     top: 100%;
+    grid-column: 3 / 4;
 }
 
 /*unordered list style (about, projects, contact)*/
