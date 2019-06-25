@@ -116,6 +116,10 @@ address {
 	background-color: #f1f1f1;
 }
 
+.nav ul li ul li a:hover::before {
+	width: 100%;
+}
+
 /*show submenus*/
 .nav ul li:hover ul {
     display: block;
