@@ -6,16 +6,18 @@ body {
     font-weight: 400;
 }
 /*header style*/
-.head {
+.header {
     background-color: #256569;
     color: white;
     font-size: 20px;
-    text-align: center;	
-    text-decoration: none;
+    text-align: center;
     padding: 10px 0;
     position: absolute;
     left: 50px;
     top: 0;
+}
+.header a {
+    text-decoration: none;
 }
 
 /*navbar style*/
