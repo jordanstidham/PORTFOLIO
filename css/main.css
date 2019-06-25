@@ -6,14 +6,26 @@ body {
     font-family: Arial;
     font-weight: 400;
 }
+.content {
+    background: #112E51;
+    color: white;
+    border-radius: 1em;
+    padding: 1em;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
 /*header style*/
-.header {
+header {
     background-color: #256569;
     position: absolute;
     left: 50px;
     top: 0;
 }
-.header a {
+header a {
     color: white;
     font-size: 20px;
     text-align: center;
@@ -22,7 +34,7 @@ body {
 }
 
 /*navbar style*/
-.nav {
+nav {
     padding: 10px 0px;
     text-align: center;
     position: absolute; 
@@ -30,7 +42,7 @@ body {
 }
 
 /*unordered list style (about, projects, contact)*/
-.nav ul {
+nav ul {
     display: inline;
     margin: 0;
     padding: 0;
@@ -39,7 +51,7 @@ body {
     top: 0;
     width: 100%;
 }
-.nav ul li {
+nav ul li {
     display: inline-block;
     font-size: 20px;
     margin left: 50px;
@@ -48,17 +60,17 @@ body {
     
     position: relative;
 }
-.nav ul li a {
+nav ul li a {
     display: block;
     color: #444;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
 }
-.nav ul li a:hover {
+nav ul li a:hover {
     color: #000;
 }
-.nav ul li a::before {
+nav ul li a::before {
     content: '';
     display: block;
     height: 5px;
@@ -70,7 +82,7 @@ body {
     
     transition: all ease-in-out 250ms;
 }
-.nav ul li a:hover::before {
+nav ul li a:hover::before {
     width: 100%;
 }
 
@@ -81,7 +93,7 @@ address {
 }
 
 /* The subnavigation menu (corp. comm, in-house, etc)*/
-.nav ul li ul {
+nav ul li ul {
     display: none;
     width: 300px;
     list-style: none;
@@ -91,7 +103,7 @@ address {
     border-radius: 0px 0px 4px 4px;
 }
 
-.nav ul li ul:before {
+nav ul li ul:before {
     content: "";
     width: 0;
     height: 0;
@@ -99,7 +111,7 @@ address {
     position: relative; 
 }
 
-.nav ul li ul li {
+nav ul li ul li {
     display: block;
     padding: 10px; 
     background: #E4E2E0;
@@ -109,22 +121,22 @@ address {
 }
 
 /* Links inside the dropdown */
-.nav ul li ul li a {
+nav ul li ul li a {
     color: #444;
     transition: .5s;
 }
 
 /* Change color of dropdown links on hover */
-.nav ul li ul li a:hover {
+nav ul li ul li a:hover {
     background-color: #f1f1f1;
 }
 
-.nav ul li ul li a:hover::before {
+nav ul li ul li a:hover::before {
     width: 100%;
 }
 
 /*show submenus*/
-.nav ul li:hover ul {
+nav ul li:hover ul {
     display: block;
     position: absolute;
 }
