@@ -68,7 +68,7 @@ body {
     transition: all ease-in-out 250ms;
 }
 .nav ul li a:hover::before {
-	width: 100%;
+    width: 100%;
 }
 
 address {
@@ -85,7 +85,7 @@ address {
     position: absolute;
     text-align: left;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-	border-radius: 0px 0px 4px 4px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 .nav ul li ul:before {
@@ -101,23 +101,23 @@ address {
     padding: 10px; 
     background: #E4E2E0;
     font-size: 20px;
-	width: 300px;
-	border-radius: 4px;
+    width: 300px;
+    border-radius: 4px;
 }
 
 /* Links inside the dropdown */
 .nav ul li ul li a {
     color: #444;
-	transition: .5s;
+    transition: .5s;
 }
 
 /* Change color of dropdown links on hover */
 .nav ul li ul li a:hover {
-	background-color: #f1f1f1;
+    background-color: #f1f1f1;
 }
 
 .nav ul li ul li a:hover::before {
-	width: 100%;
+    width: 100%;
 }
 
 /*show submenus*/
