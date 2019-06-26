@@ -83,7 +83,7 @@ nav ul li a::before {
     background-color: #112E51;  
     
     position: absolute;
-    top: 0;
+    top: -.75em;
     width: 0%;
     
     transition: all ease-in-out 250ms;
