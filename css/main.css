@@ -93,12 +93,6 @@ nav ul li a:hover::before {
     transform: scale(1,1);
 }
 
-address {
-    position: absolute; 
-    right: 50px; 
-    bottom: 10px;
-}
-
 /* The subnavigation menu (corp. comm, in-house, etc)*/
 nav ul li ul {
     display: none;
@@ -146,4 +140,18 @@ nav ul li ul li a:hover::before {
 nav ul li:hover ul {
     display: block;
     position: absolute;
+}
+
+.social-icon {
+  width: 25%;
+  height: 25%; 
+}
+
+.copyright::before {
+  content: '';
+  display: block;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.15);
+  margin: 4em auto;
+  width: 25%; 
 }
