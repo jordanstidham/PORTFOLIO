@@ -85,10 +85,12 @@ nav ul li a::before {
     top: -.75em;
     width: 0%;
     
-    transition: all ease-in-out 250ms;
+    transform: scale(0,1);
+    transition: transform ease-in-out 250ms;
 }
 nav ul li a:hover::before {
     width: 100%;
+    transform: scale(1,1);
 }
 
 address {
