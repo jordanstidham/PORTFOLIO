@@ -25,7 +25,7 @@ header {
     z-index: 999;
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr auto minmax(600px, 1fr) 1fr;
+    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
 }
 .logo {
     color: white;
