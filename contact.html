@@ -16,41 +16,59 @@
   <li><a href="mailto:stidhamjordan@gmail.com">email</a></li>
   <li><a href="https://github.com/jordanstidham">website</a></li>
 </ul>
-	<div class="footer">
-			<meta name="viewport" content="width=device-width, initial-scale=1">
+	<section class="contact">
+		<h1>Contact me</h1>
+		<form action="">
+			<label class="name">Name:
+				<input type="text" id="name">
+			</label>
+			
+			<label class="email">Email:
+				<input type="email" id="email">
+			</label>
+			
+			<label message="message">Message:
+				<textarea name="" id="message"></textarea>
+			</label>	
+		</form>
+	</section>
+	
+	<footer>
+		<p>Follow me on social media</p>
+		<div class="social-icons">
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<style>
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-/* Facebook */
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-/* Twitter */
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-/* LinkedIn */
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-
-</style>
+			<style>
+			.fa {
+			  padding: 20px;
+			  font-size: 30px;
+			  width: 30px;
+			  text-align: center;
+			  text-decoration: none;
+			  border-radius: 50%;
+			}
+			.fa:hover {
+			    opacity: 0.7;
+			}
+			/* Facebook */
+			.fa-facebook {
+			  background: #3B5998;
+			  color: white;
+			}
+			/* Twitter */
+			.fa-twitter {
+			  background: #55ACEE;
+			  color: white;
+			}
+			/* LinkedIn */
+			.fa-linkedin {
+			  background: #007bb5;
+			  color: white;
+			}
+			</style>
 			<a href="https://www.facebook.com/jordan.stidham.96" class="fa fa-facebook"></a>
 			<a href="https://www.twitter.com/jordanstidham/" class="fa fa-twitter"></a>
 			<a href="https://www.linkedin.com/in/jordanstidham/" class="fa fa-linkedin"></a>
-		</div><!-- /.footer -->
+		</div><!-- social-icons -->
+		
+		<p class="copyright">Copyright 2019 Jordan Stidham</p>
+	</footer>
