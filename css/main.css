@@ -155,3 +155,7 @@ nav ul li:hover ul {
   margin: 4em auto;
   width: 25%; 
 }
+
+footer {
+	background-color: #256569;
+}
