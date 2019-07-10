@@ -142,8 +142,6 @@ nav ul li:hover ul {
     position: absolute;
 }
 
-
-/*New*/
 .welcome {
   display: -webkit-box;
   display: -webkit-flex;
@@ -189,8 +187,6 @@ nav ul li:hover ul {
   min-height: 100%;
   min-width: 100%;
   display: block; }
-/*New*/
-
 
 .social-icon {
   width: 25%;
@@ -208,6 +204,6 @@ nav ul li:hover ul {
 
 footer {
 	background-color: #256569;
-	width: 5em 0;
+	width: 100%;
 	text-align: center;
 }
