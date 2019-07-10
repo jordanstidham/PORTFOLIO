@@ -144,13 +144,13 @@ nav ul li:hover ul {
 
 
 /*New*/
-.intro {
+.welcome {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   color: rgba(255, 255, 255, 0.7); }
-  .intro h2 {
+  .welcome h2 {
     color: #FFFFFF; }
     .intro h2::after {
       content: '';
@@ -160,11 +160,11 @@ nav ul li:hover ul {
       display: block;
       margin: 1em auto 0; }
   @supports (display: grid) {
-    .intro {
+    .welcome {
       display: grid;
       grid-template-columns: minmax(4em, 1fr) minmax(auto, 30em) minmax(4em, 1fr); } }
 
-.intro-middle {
+.welcome-middle {
   background: #223843;
   padding: 2.5em 5vw;
   text-align: center;
@@ -182,8 +182,8 @@ nav ul li:hover ul {
   -ms-flex-pack: center;
   justify-content: center; }
 
-.intro-left img,
-.intro-right img {
+.welcome-left img,
+.welcome-right img {
   -o-object-fit: cover;
   object-fit: cover;
   min-height: 100%;
