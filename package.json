@@ -1,21 +1,21 @@
 {
-  "name": "portfolio-with-css-grid",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevin-powell/portfolio-with-css-grid.git"
+    "url": "git+https://github.com/jordanstidham/portfolio.git"
   },
-  "author": "Kevin Powell",
-  "license": "MIT",
+  "author": "Jordan Stidham",
+  "license": "APSU",
   "bugs": {
-    "url": "https://github.com/kevin-powell/portfolio-with-css-grid/issues"
+    "url": "https://github.com/jordanstidham/portfolio/issues"
   },
-  "homepage": "https://github.com/kevin-powell/portfolio-with-css-grid#readme",
+  "homepage": "https://github.com/jordanstidham/portfolio#readme",
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
