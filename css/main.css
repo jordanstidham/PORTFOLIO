@@ -154,10 +154,10 @@ nav ul li:hover ul {
   background: rgba(255, 255, 255, 0.15);
   margin: 4em auto;
   width: 25%; 
-  text-align: center;
 }
 
 footer {
 	background-color: #256569;
 	width: 100%;
+	text-align: center;
 }
