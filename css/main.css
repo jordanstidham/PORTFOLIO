@@ -207,3 +207,9 @@ footer {
 	width: 100%;
 	text-align: center;
 }
+
+/*new item*/
+.social-icons {
+	justify-content: center
+}
+/*end new item*/
