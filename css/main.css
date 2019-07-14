@@ -191,6 +191,9 @@ nav ul li:hover ul {
 .social-icon {
   width: 25%;
   height: 25%; 
+/*new item*/
+justify-content: center
+/*end new item*/
 }
 
 .copyright::before {
@@ -207,9 +210,3 @@ footer {
 	width: 100%;
 	text-align: center;
 }
-
-/*new item*/
-.social-icons {
-	justify-content: center
-}
-/*end new item*/
