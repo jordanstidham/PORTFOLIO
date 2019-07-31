@@ -192,12 +192,7 @@ nav ul li:hover ul {
   width: 25%;
   height: 25%; 
 /*new item*/
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) }
+  margin-top: -10px;
 /*end new item*/
 }
 
