@@ -151,7 +151,7 @@ nav ul li:hover ul {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
+}
 h1 {
 	font-size: 1.5rem;
 	font-weight: normal;
@@ -168,8 +168,14 @@ span {
       }
 }
  
-	&::before,
-    &::after {
+    h1::before {
+      content: '';
+      display: block;
+      width: 60%;
+      height: 1px;
+      background: $dark-blue;
+}
+    h1::after {
       content: '';
       display: block;
       width: 60%;
@@ -177,11 +183,11 @@ span {
       background: $dark-blue;
     }
 
-    &::before {
+    h1::before {
       margin: 0 auto 2em;      
     }
 
-    &::after {
+    h1::after {
       margin: 2em auto 0;      
     }
 
