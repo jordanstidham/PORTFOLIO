@@ -191,14 +191,6 @@ nav ul li:hover ul {
 .social-icon {
   width: 25%;
   height: 25%; 
-/*new item*/
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%) }
-/*end new item*/
 }
 
 .copyright::before {
@@ -211,7 +203,7 @@ nav ul li:hover ul {
 }
 
 footer {
-	background-color: #256569;
+	background-color: #ddd;
 	width: 100%;
 	text-align: center;
 }
