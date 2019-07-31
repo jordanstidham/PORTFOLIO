@@ -144,6 +144,7 @@ nav ul li:hover ul {
 
 /*into*/
 .hero {	
+	background-image: url(../img/header-bg.png);
 	height: 100vh;
 	display: flex;
 	align-items: center;
