@@ -249,7 +249,7 @@ span {
 .social-icon {
   width: 25%;
   height: 25%; 
-  margin-top: -10px;
+  justify-content: center;
 }
 
 .copyright::before {
