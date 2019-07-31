@@ -142,6 +142,11 @@ nav ul li:hover ul {
     position: absolute;
 }
 
+/*into*/
+.hero {
+	
+}
+
 .welcome {
   display: -webkit-box;
   display: -webkit-flex;
