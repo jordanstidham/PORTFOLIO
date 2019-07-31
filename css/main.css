@@ -6,6 +6,11 @@ body {
     font-family: Arial;
     font-weight: 400;
 }
+
+img {
+  max-width: 100%;
+}
+
 .content {
     background: #112E51;
     color: white;
