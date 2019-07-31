@@ -136,13 +136,13 @@ nav ul li ul li a:hover::before {
     width: 100%;
 }
 
-/*show submenus*/
+/* show submenus */
 nav ul li:hover ul {
     display: block;
     position: absolute;
 }
 
-/*into*/
+/* welcome intro */
 .hero {	
 	background-image: url(../img/header-bg.png);
 	height: 100vh;
@@ -153,11 +153,20 @@ nav ul li:hover ul {
 h1 {
 	font-size: 1.5rem;
 	font-weight: normal;
-	color: dark-blue;
-	line-height: 1.5
+	color: $dark-blue;
+	line-height: 1.5;
+	text-align: center;
    }
-}
+span {
+      @include sans-serif($fs: 5.5rem, $color: $accent);
+      display: block;
 
+      @include mq {
+        font-size: 10vw;
+      }
+}
+ 
+/* please, browse and enjoy */
 .welcome {
   display: -webkit-box;
   display: -webkit-flex;
