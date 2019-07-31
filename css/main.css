@@ -192,7 +192,7 @@ nav ul li:hover ul {
   width: 25%;
   height: 25%; 
 /*new item*/
-  margin-top: -10px;
+  margin: 10px 5px 0;
 /*end new item*/
 }
 
