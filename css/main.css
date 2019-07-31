@@ -145,6 +145,8 @@ nav ul li:hover ul {
 /* welcome intro section */
 .hero {	
 	background-image: url(../img/header-bg.png);
+	background-size: cover;
+        background-position: center;
 	height: 100vh;
 	display: flex;
 	align-items: center;
