@@ -143,8 +143,18 @@ nav ul li:hover ul {
 }
 
 /*into*/
-.hero {
-	
+.hero {	
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+h1 {
+	font-size: 1.5rem;
+	font-weight: normal;
+	color: dark-blue;
+	line-height: 1.5
+   }
 }
 
 .welcome {
