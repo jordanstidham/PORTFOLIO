@@ -142,7 +142,7 @@ nav ul li:hover ul {
     position: absolute;
 }
 
-/* welcome intro */
+/* welcome intro section */
 .hero {	
 	background-image: url(../img/header-bg.png);
 	height: 100vh;
@@ -166,7 +166,27 @@ span {
       }
 }
  
-/* please, browse and enjoy */
+	&::before,
+    &::after {
+      content: '';
+      display: block;
+      width: 60%;
+      height: 1px;
+      background: $dark-blue;
+    }
+
+    &::before {
+      margin: 0 auto 2em;      
+    }
+
+    &::after {
+      margin: 2em auto 0;      
+    }
+
+  }
+}
+
+/* please, browse and enjoy section */
 .welcome {
   display: -webkit-box;
   display: -webkit-flex;
