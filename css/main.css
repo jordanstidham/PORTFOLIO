@@ -258,7 +258,6 @@ span {
 }
 
 .about-img {
-  max-height: 25em;
   border-radius: 50%;
 
   @media (min-width: 42em) {
@@ -315,11 +314,7 @@ span {
     grid-row: 3 / 4;
   }
 
-
-
-
-
-
+/* footer section */
 .social-icon {
   width: 25%;
   height: 25%; 
