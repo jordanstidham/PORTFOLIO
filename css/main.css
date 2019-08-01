@@ -276,6 +276,7 @@ span {
 
 .about-subtitle {
   margin: .5em 0;
+  font-size: 20px;	
 }
 
 @supports (display: grid) {
