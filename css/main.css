@@ -323,6 +323,7 @@ span {
 	
 /* footer section */
 .social-icon {
+  padding: 10px;
   width: 25%;
   height: 25%; 
   display: flex;
