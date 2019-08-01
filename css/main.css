@@ -156,14 +156,18 @@ nav ul li:hover ul {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-}
+	position: relative;
+
 h1 {
 	font-size: 1.5rem;
-	font-weight: normal;
+	font-weight: $fw-n;
 	color: #000;
 	line-height: 2;
 	text-align: center;
+	@include mq {
+          font-size: 3vw;
    }
+}
 span {
       @include sans-serif($fs: 5.5rem, $color: $accent);
       display: block;
@@ -195,8 +199,6 @@ span {
     h1::after {
       margin: 2em auto 0;      
     }
-
-  }
 }
 
 /* please, browse and enjoy section */
