@@ -327,6 +327,10 @@ span {
   justify-content: center;
 }
 
+.copyright {
+  padding: 10px;	
+}
+	
 .copyright::before {
   content: '';
   display: block;
