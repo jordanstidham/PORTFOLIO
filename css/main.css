@@ -248,7 +248,7 @@ span {
   min-width: 100%;
   display: block; }
 
-/* Jordan Stidham section */
+/* About tab */
 .about-me {
   @include container;
   @include clearfix;
