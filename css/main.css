@@ -310,7 +310,6 @@ span {
     }
   }
 
-
   .about-subtitle {
     grid-row: 2 / 3;
   }
@@ -318,7 +317,10 @@ span {
   .about-text {
     grid-row: 3 / 4;
   }
+	
+/* Projects tab */
 
+	
 /* footer section */
 .social-icon {
   width: 25%;
