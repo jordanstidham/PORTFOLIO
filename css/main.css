@@ -321,7 +321,6 @@ span {
 
 /* footer section */
 .social-icon {
-  margin-top: 3em;
   width: 25%;
   height: 25%; 
   display: flex;
@@ -346,5 +345,4 @@ footer {
 	background-color: #ddd;
 	width: 100%;
 	text-align: center;
-	margin-bottom: 0;
 }
