@@ -1,9 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather:400,900|Six+Caps");
 
 body {
-    margin: 0;
-    height: 100%;
-    width: 100%;
+    margin: 70px;
     background-color: #ffffff;
     font-family: Arial;
     font-weight: 400;
