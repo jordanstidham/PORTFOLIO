@@ -281,16 +281,6 @@ span {
   margin-bottom: 5em;
 }
 
-.about-img {
-  max-height: 25em;
-  border-radius: 50%;
-
-  @media (min-width: 42em) {
-    float: left;
-    margin-right: 1em;
-  }
-}
-
 .about-title {
   margin-bottom: .25em;
   font-size: 40px;
