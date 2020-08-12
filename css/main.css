@@ -249,6 +249,11 @@ span {
   display: block; }
 
 /* About tab */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+	
 .about-me {
   @include container;
   @include clearfix;
