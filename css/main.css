@@ -248,17 +248,6 @@ span {
   display: block; }
 
 /* About tab */
-.pero {	
-	background-image: url(../img/headshot.png);
-	background-size: cover;
-        background-position: center;
-	height: 100vh;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	position: relative;
-}
-
 * {
   box-sizing: border-box;
 }
