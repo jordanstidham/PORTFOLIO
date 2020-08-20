@@ -6,6 +6,61 @@
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<title>Jordan R. Stidham</title>
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.portfolio {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.portfolio,
+.portfolio > .portfolio-items {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.portfolio-items {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.portfolio:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .portfolio-items {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .portfolio-items {
+    width: 100%;
+  }
+}
+</style>
 	</head>
 	<body>
 		<header>
