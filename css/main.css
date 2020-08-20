@@ -26,14 +26,6 @@ header {
     display: grid;
     grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
 }
-.logo {
-    color: white;
-    font-size: 40px;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px 0;
-    grid-column: 1 / 2;
-}
 
 /*navbar style*/
 nav {
