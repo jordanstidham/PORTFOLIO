@@ -342,6 +342,16 @@ corporatecomm.html.row::after {
   }
 }
 	
+
+/* contact section */
+.contact {
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+
 /* footer section */
 .social-icon {
   padding: 10px;
