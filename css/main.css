@@ -39,7 +39,6 @@ nav {
     position: absolute; 
     right: 50px;
     top: 100%;
-    grid-column: 3 / 4;
 }
 
 /*unordered list style (about, projects, contact)*/
