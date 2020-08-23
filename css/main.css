@@ -245,10 +245,6 @@ span {
 .headshot {
   position: relative;
 }
-
-.columner {
- position: absolute;
-}
 	
 .about-me {
   @include container;
