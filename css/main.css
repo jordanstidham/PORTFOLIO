@@ -244,7 +244,8 @@ span {
 
 .transbox {
  background-color:#aaa; 
- opacity: 0.5;"
+ opacity: 0.5;
+ padding: 10px;
 }
 	
 .about-me {
