@@ -138,6 +138,11 @@ nav ul li:hover ul {
     position: absolute;
 }
 
+/*Responsive Rules*
+@media screen and (min-width: 400px) {
+	
+}
+
 /* welcome intro section */
 .hero {	
 	background-image: url(../img/header-bg.png);
