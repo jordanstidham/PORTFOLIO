@@ -245,6 +245,11 @@ span {
 .headshot {
   position: relative;
 }
+
+.transbox {
+ background-color:#aaa; 
+ opacity: 0.5;"
+}
 	
 .about-me {
   @include container;
