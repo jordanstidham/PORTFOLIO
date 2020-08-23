@@ -25,6 +25,7 @@ body {
 /*navbar style starts here*/
 header {
     position: relative;
+    z-index: 999;
 }
 
 /*navbar style*/
