@@ -242,6 +242,17 @@ span {
   box-sizing: border-box;
 }
 
+.headshot {
+        background-image: url(img/headshot.png);
+	background-size: cover;
+        background-position: center;
+        height: 100vh;
+	display: flex;
+	align-items: right;
+	justify-content: center;
+	position: relative;
+}
+
 .transbox {
  background-color:#aaa; 
  opacity: 0.5;
