@@ -264,6 +264,9 @@ span {
   .columner {
     width: 100%;
   }
+	.headshot {
+	width: 50%;
+	}
 }
 	
 .about-me {
