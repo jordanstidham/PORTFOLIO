@@ -241,6 +241,9 @@ span {
   display: block; }
 
 /* About tab */
+.headshot {
+	position: absolute
+}
 * {
   box-sizing: border-box;
 }
