@@ -24,11 +24,7 @@ body {
 
 /*navbar style starts here*/
 header {
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr auto minmax(600px, 3fr) 1fr;
+    position: relative;
 }
 
 /*navbar style*/
