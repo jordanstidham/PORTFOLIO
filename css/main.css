@@ -243,7 +243,7 @@ span {
 }
 
 .headshot {
-        background-image: url(../img/headshot.png);
+        background-image: url(../img/headshot.png) alt:"Jordan Stidham";
 	background-size: cover;
         background-position: center;
 	display: flex;
