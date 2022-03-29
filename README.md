@@ -1,3 +1,2 @@
 # portfolio
-My virtual portfolio.
-Online portfolio showcasing my capabilities.
+My virtual portfolio showcasing my capabilities.
