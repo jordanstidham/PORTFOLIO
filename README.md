@@ -1,2 +1,2 @@
 # portfolio
-A virtual portfolio I created to showcase my capabilities.
+A virtual portfolio I created from scratch to showcase my capabilities.
